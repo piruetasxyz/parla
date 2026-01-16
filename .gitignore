@@ -5,4 +5,7 @@
 /*-backups/
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*/#auto_saved_files#
+*/fp-info-cache
+*.zip
 *.lck
