@@ -2684,7 +2684,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "737e2ee9-60e6-47da-b9ea-622576143abc")
 		(property "Reference" "RV1"
 			(at 57.15 55.8799 0)
@@ -2704,8 +2703,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
-			(at 59.69 57.15 0)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal"
+			(at 55.118 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
