@@ -1,0 +1,11 @@
+"Comment";"Designator";"Footprint";"LCSC";
+"10k";"RV1";"TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal";"";
+"470n";"C2,C3";"CP_Elec_4x5.4";"";
+"220u";"C5,C6";"CP_Elec_6.3x7.7";"";
+"10R";"R1";"R_1206_3216Metric";"";
+"8";"LS1";"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal";"";
+"Screw_Terminal_01x02";"J2,J1";"TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal";"";
+"100u";"C7";"CP_Elec_5x5.4";"";
+"220p";"C1";"C_0402_1005Metric";"";
+"100n";"C4";"C_0402_1005Metric";"";
+"LM386";"U1";"DIP-8_W7.62mm";"";
