@@ -488,7 +488,7 @@
       "idf": "",
       "netlist": "./",
       "plot": "../parlaMonoGerber/",
-      "pos_files": "",
+      "pos_files": "../",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
