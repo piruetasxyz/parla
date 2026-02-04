@@ -1,0 +1,8 @@
+Comment;Designator;Footprint;LCSC Part Number
+220p;C1;Capacitor_SMD:C_0805_2012Metric;C107145
+470n;C2,C3;Capacitor_SMD:CP_Elec_4x5.4;C22387960
+100n;C4;Capacitor_SMD:C_0805_2012Metric;C49678
+220u;C5,C6;Capacitor_SMD:CP_Elec_6.3x5.4;C3345
+100u;C7;Capacitor_SMD:CP_Elec_5x5.4;C72473
+1n4007;D1;Diode_SMD:D_SOD-323;C193404
+10R;R1;Resistor_SMD:R_0805_2012Metric;C2907296

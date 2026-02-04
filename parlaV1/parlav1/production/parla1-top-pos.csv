@@ -1,0 +1,10 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,220p,C_0805_2012Metric,67,-61.95,90,top
+C2,470n,CP_Elec_4x5.4,75,-60.2,-90,top
+C3,470n,CP_Elec_4x5.4,60,-65,-90,top
+C4,100n,C_0805_2012Metric,72.784667,-78.141909,90,top
+C5,220u,CP_Elec_6.3x5.4,61,-75.5,90,top
+C6,220u,CP_Elec_6.3x5.4,78,-83,90,top
+C7,100u,CP_Elec_5x5.4,53.718396,-75.855599,-90,top
+D1,1n4007,D_SOD-323,79,-66.95,90,top
+R1,10R,R_0805_2012Metric,67.913687,-78.32476,90,top
