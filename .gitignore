@@ -2,6 +2,7 @@
 .DS_Store
 
 # Kicad
+.history/
 /*-backups/
 *.kicad_pcb-bak
 *.kicad_sch-bak
