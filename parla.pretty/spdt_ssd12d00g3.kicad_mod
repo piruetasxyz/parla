@@ -1,0 +1,254 @@
+(footprint "spdt_ssd12d00g3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "Switch Micro SPST")
+	(property "Reference" "SW3"
+		(at 0 -2.95 0)
+		(layer "F.SilkS")
+		(uuid "4dcf21cb-6918-415d-9f30-e83f214d5e33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ONOFF"
+		(at 0 5.715 0)
+		(layer "F.Fab")
+		(uuid "e7f2df8b-6706-4a99-96e8-0712545490dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dee40b9-0c25-4b53-9340-922d4c7d5c76")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30865d0d-03ab-4733-ae2a-27bead859a52")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.318 -1.778)
+		(end 4.318 -1.778)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dab7d676-1270-4e02-8e97-1be4d23b4239")
+	)
+	(fp_line
+		(start -4.318 1.778)
+		(end -4.318 -1.778)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5ac0e7b-64f7-409b-abe7-bbbe49991b6e")
+	)
+	(fp_line
+		(start -1.6 -0.9)
+		(end 1.6 -0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1be8ffb9-40d2-44cc-97e9-296afba0c095")
+	)
+	(fp_line
+		(start -1.6 0)
+		(end -1.6 -0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cb37bdf-393b-4b68-bee6-b145820e336b")
+	)
+	(fp_line
+		(start -1.6 0.9)
+		(end -1.6 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54620c8c-2461-4606-bc6d-c3b3b3edeb46")
+	)
+	(fp_line
+		(start -1 -0.762)
+		(end -1 0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58f420e7-6299-4403-8c6b-1f1cd411dd45")
+	)
+	(fp_line
+		(start 1.6 -0.812542)
+		(end 1.6 0)
+		(stroke
+			(width 0.159949)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "188fa780-22f6-4534-833e-8b2d4ac7aec1")
+	)
+	(fp_line
+		(start 1.6 0)
+		(end 1.6 0.812542)
+		(stroke
+			(width 0.159949)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ece7cd1-e6be-4d01-8313-2462640bde7f")
+	)
+	(fp_line
+		(start 1.6 0.9)
+		(end -1.6 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e48878ad-dd85-4c7c-b000-dbb975e1571c")
+	)
+	(fp_line
+		(start 4.318 -1.778)
+		(end 4.318 1.778)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a59ccce9-235b-4699-9187-071ce5265a60")
+	)
+	(fp_line
+		(start 4.318 1.778)
+		(end -4.318 1.778)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d425dac-b1de-4a7d-af8d-9c1d5b8e5e6d")
+	)
+	(fp_rect
+		(start -3.35 -0.8)
+		(end -1.75 0.811696)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "02e70bbd-b9c2-4c14-8403-92c3ab2747b6")
+	)
+	(fp_rect
+		(start -0.8 -0.8)
+		(end 0.8 0.811696)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "550cf70e-33aa-41b3-92c7-7ef668c95ac0")
+	)
+	(fp_rect
+		(start 1.75 -0.798448)
+		(end 3.343398 0.804523)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6aa2de83-c16e-4dd0-9824-266bb1761e09")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill oval 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2448d795-3cae-4cf6-9d81-fad5b4b377a9")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill oval 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f5b5648-f921-462e-a047-a5e354cdb01b")
+	)
+	(pad "3" thru_hole rect
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill oval 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6ff269a-5d34-426f-9571-36ab226e4ceb")
+	)
+	(embedded_fonts no)
+	(model "Buttons_Switches_ThroughHole.3dshapes/SW_Micro_SPST.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.33 0.33 0.33)
+		)
+		(rotate
+			(xyz 5 5 0)
+		)
+	)
+	(model "${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_CuK_JS202011CQN_DPDT_Straight.step"
+		(offset
+			(xyz -2.5 1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD_PERSONALES}/ss12d00-1.snapshot.10/SPDT slide switch SS12D00.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
