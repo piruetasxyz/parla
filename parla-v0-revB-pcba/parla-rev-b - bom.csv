@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC Part Number
+470n,"C1,C2",Capacitor_SMD:C_Elec_4x5.4,C2895732
+100n,"C3,C10",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C49678
+1u,"C4,C5,C6",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C77083
+100u,C7,Capacitor_SMD:CP_Elec_6.3x7.7,C3347
+220u,C8,Capacitor_SMD:CP_Elec_6.3x5.4,C3342
+10u,C9,Capacitor_SMD:CP_Elec_4x5.4,C3357
+1N4007,D1,Diode_SMD:D_SOD-323_HandSoldering,C193404
+10k,"R3,R4",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17414
+1k,R5,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C2907232
+PAM8403D,U1,Package_SO:SOP-16_4.4x10.4mm_P1.27mm,C5122557
+L7805,U2,Package_TO_SOT_SMD:TO-252-2,C19626525
