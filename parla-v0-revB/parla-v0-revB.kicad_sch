@@ -4811,7 +4811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 154.6352 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -4844,7 +4844,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72478"
+		(property "LCSC" "C3347"
 			(at 153.67 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -5631,7 +5631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 137.4902 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -5664,7 +5664,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72494"
+		(property "LCSC" "C3342"
 			(at 136.525 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -7431,7 +7431,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72485"
+		(property "LCSC" "C3357"
 			(at 179.07 144.145 0)
 			(hide yes)
 			(show_name no)
