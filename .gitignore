@@ -1,6 +1,9 @@
 # Apple
 .DS_Store
 
+# zip
+*.zip
+
 # KiCAD
 ## Temporary files
 *.000
