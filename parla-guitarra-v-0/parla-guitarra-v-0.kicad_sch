@@ -5,6 +5,9 @@
 	(uuid "ce7bec08-c252-4eda-9576-59fd5b1f2a43")
 	(paper "A5")
 	(title_block
+		(title "parla-guitarra")
+		(date "2026-09-21")
+		(rev "rev-a")
 		(company "piruetas SpA")
 	)
 	(lib_symbols
@@ -246,6 +249,212 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -799,6 +1008,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Speaker"
 			(pin_names
 				(offset 0)
@@ -940,7 +1362,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+9V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -965,7 +1387,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+9V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -997,7 +1419,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1019,7 +1441,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+9V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1057,7 +1479,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1206,36 +1628,35 @@
 		)
 		(uuid "a5ae822d-20ed-491d-8937-5a6e382e7894")
 	)
-	(text "1 a 8\nsmokey amp"
-		(exclude_from_sim no)
-		(at 111.76 82.042 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8e44b23-b610-47cb-afd1-6702bc78a63e")
-	)
 	(junction
-		(at 63.5 59.69)
+		(at 124.46 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db77b797-98f1-44e9-bb81-48e8d6268f46")
+		(uuid "9a28fcb4-329c-4d76-9e28-e6e158138758")
 	)
 	(no_connect
-		(at 45.72 57.15)
-		(uuid "ab61bf1e-b3b6-4341-87d6-9a12d6ef4eaa")
+		(at 43.18 72.39)
+		(uuid "b2b1a521-1392-4067-879e-b4b0ce8abb17")
 	)
 	(wire
 		(pts
-			(xy 45.72 62.23) (xy 52.07 62.23)
+			(xy 110.49 69.85) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dc586f8-fc8b-4692-9083-faf6496ce70b")
+		(uuid "10601d2e-30f3-48a2-ae99-64d864c27679")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e119c2-35f7-473d-8179-eae47740fdf0")
 	)
 	(wire
 		(pts
@@ -1249,6 +1670,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 83.82) (xy 115.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2937a402-a04c-40c0-acae-efbc90a12ccc")
+	)
+	(wire
+		(pts
+			(xy 33.02 35.56) (xy 48.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b969845-3ae2-4891-8336-3e5d8580a589")
+	)
+	(wire
+		(pts
 			(xy 118.11 29.21) (xy 118.11 34.29)
 		)
 		(stroke
@@ -1259,37 +1700,37 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 82.55) (xy 82.55 88.9)
+			(xy 45.72 77.47) (xy 45.72 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f39a60b-29e6-40ec-a725-2be35171abb5")
+		(uuid "37fd777a-1f5e-4bc2-bf17-07f74ff1f934")
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 63.5 59.69)
+			(xy 115.57 87.63) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c78db8a-449e-486a-8c41-034fdccd4823")
+		(uuid "3c75b505-131d-4226-a607-f66a2d6698fd")
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 110.49 82.55)
+			(xy 57.15 74.93) (xy 57.15 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a0b0dd0-b2bc-4334-8d4b-d12aad1670d0")
+		(uuid "4051983e-990d-4fda-938f-84744def8919")
 	)
 	(wire
 		(pts
-			(xy 100.33 64.77) (xy 82.55 64.77)
+			(xy 100.33 64.77) (xy 83.82 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1299,13 +1740,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 52.07 88.9)
+			(xy 33.02 33.02) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5345c5b6-0cbc-4eb4-8277-298d495d5965")
+		(uuid "5b527e76-3e61-460b-ada6-e6003ae046d1")
 	)
 	(wire
 		(pts
@@ -1339,23 +1780,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 107.95 82.55)
+			(xy 105.41 38.1) (xy 105.41 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "873bc5f9-4166-422b-9f09-80c605bd86ce")
-	)
-	(wire
-		(pts
-			(xy 82.55 64.77) (xy 82.55 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e1aa3a5-3a5a-46f6-94a3-37dd61a2fab6")
+		(uuid "840d3ad7-571e-4416-9b86-bf94788eded1")
 	)
 	(wire
 		(pts
@@ -1379,13 +1810,33 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 100.33 59.69)
+			(xy 57.15 102.87) (xy 83.82 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "977e7907-bdc5-4ce9-90ba-beff4f2844ed")
+		(uuid "9a728141-7325-4300-a735-f472891d0225")
+	)
+	(wire
+		(pts
+			(xy 107.95 80.01) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbd9fc7-02fc-45da-aca1-93f37a7e3127")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ccf2a9-193c-4bb7-8bb1-310188c9b6be")
 	)
 	(wire
 		(pts
@@ -1399,13 +1850,83 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 39.37) (xy 105.41 54.61)
+			(xy 43.18 77.47) (xy 45.72 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c603d409-3334-4cf7-8dc4-121e7e9aa493")
+		(uuid "b105d996-4157-4d7a-bdf9-323999dc3658")
+	)
+	(wire
+		(pts
+			(xy 82.55 35.56) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bc6044-2402-401e-8478-a4fd04411983")
+	)
+	(wire
+		(pts
+			(xy 48.26 24.13) (xy 48.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d61832-5cf5-4363-8bc3-01db3eda49db")
+	)
+	(wire
+		(pts
+			(xy 83.82 64.77) (xy 83.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baec24ca-2793-47b8-982e-f7f4a66d2bc5")
+	)
+	(wire
+		(pts
+			(xy 82.55 24.13) (xy 82.55 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca52d32-0565-46a6-9600-844dfc14c30d")
+	)
+	(wire
+		(pts
+			(xy 63.5 59.69) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37f957a-068d-49cd-8232-f29e8f2bd8be")
+	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3814984-00d8-45c6-815d-ae5a6dfc7301")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a04787-1a4f-4b1a-911d-706ea6876742")
 	)
 	(wire
 		(pts
@@ -1419,13 +1940,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 82.55) (xy 110.49 69.85)
+			(xy 111.76 80.01) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e01df805-b3f6-4e45-9891-3b60dda5145e")
+		(uuid "e0aa4476-ce52-4980-b633-587164bce643")
+	)
+	(wire
+		(pts
+			(xy 68.58 24.13) (xy 68.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27a3fe3-0567-4b03-8347-da5bd08286fe")
 	)
 	(wire
 		(pts
@@ -1446,6 +1977,36 @@
 			(type default)
 		)
 		(uuid "eece91b3-97eb-4457-a40b-f537cb34bbf8")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f379790e-d33e-4340-a10d-7ccbc2d247af")
+	)
+	(wire
+		(pts
+			(xy 43.18 74.93) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3de8167-b161-4da2-a9b4-a70de05b0476")
+	)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c999d1-f75a-40b5-8d82-a106acad18c2")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1608,8 +2169,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 82.55 78.74 0)
+		(lib_id "power:+9V")
+		(at 82.55 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1618,31 +2179,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "464780cf-98de-4f4a-ab0b-0fda93ff5ca1")
-		(property "Reference" "C1"
-			(at 86.36 77.4699 0)
+		(uuid "214bf36b-2bab-4f41-86d2-d349df5b94a3")
+		(property "Reference" "#PWR012"
+			(at 82.55 27.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 86.36 80.0099 0)
+		(property "Value" "+9V"
+			(at 82.55 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 83.5152 82.55 0)
+			(at 82.55 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +2213,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 78.74 0)
+			(at 82.55 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 82.55 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62e5e01c-bd26-43ab-a4de-5d9228f7782c")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c2d17e-f4ee-4b8b-8b2f-28960906a2ea")
+		(property "Reference" "C6"
+			(at 86.36 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200n"
+			(at 86.36 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.5152 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +2303,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 78.74 0)
+			(at 82.55 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1675,23 +2314,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae3a3aa3-f324-44e2-b1f3-edeb594d11f2")
+			(uuid "d650e906-fa10-4ee1-b3d7-d4b6eede83d1")
 		)
 		(pin "2"
-			(uuid "fa50ffb2-4303-434e-b14d-49adf4165c51")
+			(uuid "44f4719d-9c21-412d-8fe1-003bac03b7c8")
 		)
 		(instances
 			(project "parla-guitarra-v-0"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 105.41 39.37 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 38.1 74.93 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1700,30 +2340,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51802cd7-5a98-42fc-91d3-806d4c19c224")
-		(property "Reference" "#PWR01"
-			(at 105.41 43.18 0)
-			(hide yes)
+		(uuid "2d3426b8-6028-41a5-a7e6-2f2943761a47")
+		(property "Reference" "J1"
+			(at 33.02 73.0249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+5V"
-			(at 105.41 34.29 0)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 33.02 75.5649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 39.37 0)
+			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1734,7 +2375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 39.37 0)
+			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1744,8 +2385,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 105.41 39.37 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1754,14 +2395,220 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "3"
+			(uuid "ceb295ed-cfcc-49d3-9914-00cd2f37663f")
+		)
+		(pin "2"
+			(uuid "98ac816b-6a45-4ff2-a33d-530da3e6b701")
 		)
 		(pin "1"
-			(uuid "128697a5-bcfc-4a51-ba5b-c2fc9c2ae566")
+			(uuid "424f81b1-22ac-4b1c-b983-7879106533a7")
 		)
 		(instances
 			(project "parla-guitarra-v-0"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "#PWR01")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 115.57 80.01 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48d33b11-438f-429d-86de-c21e817a0ae2")
+		(property "Reference" "RV1"
+			(at 114.2999 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k"
+			(at 116.8399 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8898e279-a578-4e0e-9887-7d4c6b892066")
+		)
+		(pin "2"
+			(uuid "cd2961ab-9f4c-4a71-bf32-130cc53a1de8")
+		)
+		(pin "1"
+			(uuid "ba9cea73-24c4-4092-8984-6f523ab782b4")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 27.94 33.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c566236-022f-49aa-9d1f-e701e181f7fc")
+		(property "Reference" "J2"
+			(at 27.94 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 27.94 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5cd74473-b151-487e-a36f-6ac756307d88")
+		)
+		(pin "1"
+			(uuid "d759267a-e1f2-4188-afa1-c9e7c2463864")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1846,8 +2693,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 88.9 0)
+		(lib_id "Device:C_Polarized")
+		(at 68.58 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1856,30 +2703,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93c8b6b4-1cda-401b-80e9-df4b1fe3f5b8")
-		(property "Reference" "#PWR03"
-			(at 82.55 95.25 0)
-			(hide yes)
+		(uuid "836bfe0b-6cc4-40b1-9fd0-e01fbf0fe502")
+		(property "Reference" "C5"
+			(at 72.39 29.5909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 82.55 93.98 0)
+		(property "Value" "47u"
+			(at 72.39 32.1309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 88.9 0)
+			(at 69.5452 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +2738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 88.9 0)
+			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1900,8 +2748,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 88.9 0)
+		(property "Description" "Polarized capacitor"
+			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,12 +2760,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e091024-2cdd-4a46-af8b-2afa6540490c")
+			(uuid "3769709c-6f19-4779-b13d-2edcd4677dc2")
+		)
+		(pin "2"
+			(uuid "c21a60ac-f00c-4bb4-860d-d103bd26ca0e")
 		)
 		(instances
 			(project "parla-guitarra-v-0"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "#PWR03")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2004,92 +2855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 40.64 59.69 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9beb56fa-84de-4677-bf38-8cc24d15c0cc")
-		(property "Reference" "J1"
-			(at 35.56 57.7849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 35.56 60.3249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 40.64 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "12e775b2-ade2-4910-85ab-b7a6dec460ce")
-		)
-		(pin "2"
-			(uuid "0f905f35-9dc8-4b18-ac13-54bbe94a0dc8")
-		)
-		(pin "1"
-			(uuid "449daa22-ae52-4c36-b118-3a58ad081e12")
-		)
-		(instances
-			(project "parla-guitarra-v-0"
-				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 118.11 38.1 0)
 		(unit 1)
@@ -2166,6 +2931,84 @@
 			(project "parla-guitarra-v-0"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 68.58 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34559e7-03f0-492c-8468-c9bc8bdb9537")
+		(property "Reference" "#PWR011"
+			(at 68.58 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 68.58 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 68.58 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "896c9d04-f0fe-4481-a62d-5f1c54839f56")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2410,8 +3253,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 52.07 88.9 0)
+		(lib_id "power:+9V")
+		(at 48.26 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2420,9 +3263,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e4f7b66a-a262-4e0f-888f-91d47db994d5")
-		(property "Reference" "#PWR07"
-			(at 52.07 95.25 0)
+		(uuid "d1b8d3cc-9598-4f60-adec-31e19b779263")
+		(property "Reference" "#PWR08"
+			(at 48.26 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2432,8 +3275,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 52.07 93.98 0)
+		(property "Value" "+9V"
+			(at 48.26 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2443,7 +3286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 88.9 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2454,7 +3297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 88.9 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,8 +3307,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,7 +3319,319 @@
 			)
 		)
 		(pin "1"
-			(uuid "16645324-20fe-441e-98b9-81abe8285e7d")
+			(uuid "2e2640da-b6ac-49d3-b612-5d171f1d9e0e")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de88991b-8788-4e21-9aa9-25f31b0639ac")
+		(property "Reference" "#PWR09"
+			(at 48.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8021e4f-6345-41c8-bde3-9d9ae25d022f")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e36a5143-9f85-489c-a448-32aedc3660a1")
+		(property "Reference" "#PWR014"
+			(at 82.55 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e27827d-8845-4d95-9eab-439b1d204358")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 105.41 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2793b15-9e1c-4894-ab7c-059800008d02")
+		(property "Reference" "#PWR010"
+			(at 105.41 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 105.41 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 105.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f4c7c18-132c-404a-99ad-ec0a823315f6")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f310a8c0-c636-4076-9201-5676dc23c945")
+		(property "Reference" "#PWR07"
+			(at 45.72 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae2da220-d542-40db-909f-74055e23ca8b")
 		)
 		(instances
 			(project "parla-guitarra-v-0"
@@ -2580,6 +3735,84 @@
 			(project "parla-guitarra-v-0"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa77b9a1-d861-408d-a2eb-1f88d31d38ab")
+		(property "Reference" "#PWR013"
+			(at 68.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6919cf6b-c060-46e3-a0f6-c041a70e2bcc")
+		)
+		(instances
+			(project "parla-guitarra-v-0"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

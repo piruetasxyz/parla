@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "rev-a"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -416,7 +416,7 @@
         "uuid": "ce7bec08-c252-4eda-9576-59fd5b1f2a43"
       }
     ],
-    "used_designators": "LS1,C1-4,J1,#PWR1-7,U1",
+    "used_designators": "U2,#PWR7-14,C5-6,RV1,BT1,J1-2",
     "variants": []
   },
   "sheets": [
