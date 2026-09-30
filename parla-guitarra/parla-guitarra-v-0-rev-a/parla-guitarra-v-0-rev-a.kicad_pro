@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "parla-guitarra-v-0.kicad_pro",
+    "filename": "parla-guitarra-v-0-rev-a.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -411,7 +411,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "parla-guitarra-v-0.kicad_sch",
+        "filename": "parla-guitarra-v-0-rev-a.kicad_sch",
         "name": "Root",
         "uuid": "ce7bec08-c252-4eda-9576-59fd5b1f2a43"
       }
