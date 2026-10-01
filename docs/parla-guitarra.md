@@ -35,7 +35,7 @@ Generado a partir de `parla-guitarra/parla-guitarra-v-0-rev-a/parla-guitarra-v-0
 | J2 | 1 | Screw_Terminal_01x02 | *(sin huella asignada)* | Bornera de 2 pines |
 | LS1 | 1 | Speaker | *(sin huella asignada)* | Parlante |
 | RV1 | 1 | 5k | *(sin huella asignada)* | Potenciómetro |
-| U1 | 1 | LM386 | *(sin huella asignada)* | Amplificador de audio LM386 |
+| U1 | 1 | LM386 | Package_DIP:DIP-8_W7.62mm_Socket_LongPads | Amplificador de audio LM386 |
 
 10 componentes en total. Los ítems marcados *(sin huella asignada)* todavía no están completos en el esquemático — hay que completarlos antes de generar gerbers o comprar partes para esta revisión.
 <!-- BOM_TABLE_END -->
