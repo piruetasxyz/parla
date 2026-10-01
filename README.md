@@ -2,6 +2,10 @@
 
 Un proyecto de piruetas, 2026.
 
+## Documentación
+
+Esquemáticos, placas y bill of materials (BOM) de cada módulo, generados automáticamente: [docs](./docs/README.md).
+
 ## Carpetas
 
 Tuvimos caos en las primeras iteraciones.

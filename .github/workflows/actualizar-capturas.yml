@@ -1,0 +1,55 @@
+name: Actualizar capturas de esquemáticos y placas
+
+# Genera una captura SVG del esquemático y de la placa de la revisión activa
+# de cada módulo parla-*, las deja en docs/images/ y regenera la tabla de
+# Bill of materials en docs/<modulo>.md (ver docs/generar_docs.py). Los
+# módulos y sus revisiones activas se descubren solos, así que no hay que
+# editar este archivo al agregar una revisión nueva.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "parla-*/**/*.kicad_sch"
+      - "parla-*/**/*.kicad_pcb"
+      - "docs/generar_docs.py"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  capturas:
+    if: github.repository == 'piruetasxyz/parla'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Descargar KiCad
+        run: docker pull kicad/kicad:10.0
+
+      - name: Generar capturas y BOM con kicad-cli
+        run: |
+          set -eu
+          # KICAD_CLI hace que generar_docs.py use kicad-cli dentro de docker,
+          # en vez de buscarlo en el PATH del runner.
+          export KICAD_CLI="docker run --rm --user $(id -u):$(id -g) -e HOME=/tmp -v ${PWD}:/work -w /work kicad/kicad:10.0 kicad-cli"
+          python3 docs/generar_docs.py
+
+      - name: Commit y push de las capturas y BOM si cambiaron
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/images docs/*.md
+          if git diff --cached --quiet; then
+            echo "Sin cambios en las capturas ni la BOM."
+            exit 0
+          fi
+          git commit -m "Actualizar capturas y BOM de esquemáticos y placas [skip ci]"
+          git push
