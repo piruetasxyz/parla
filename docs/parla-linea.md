@@ -2,6 +2,13 @@
 
 [volver al índice](./README.md)
 
+## Especificaciones
+
+- formato: standalone
+- interfaz: 2x potes
+- entradas: 1x TRS 1/8"
+- salidas: 1x parlante, 1x TRS 1/8"
+
 ## Revisión activa
 
 `v-0-rev-a`

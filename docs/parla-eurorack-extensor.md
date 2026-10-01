@@ -2,6 +2,13 @@
 
 [volver al índice](./README.md)
 
+## Especificaciones
+
+- formato: eurorack
+- interfaz: —
+- entradas: 1x TS 1/8"
+- salidas: 1x parlante
+
 ## Revisión activa
 
 `v-0-rev-a`
