@@ -6,21 +6,17 @@ Un proyecto de piruetas, 2026.
 
 Cada módulo tiene su propia carpeta con un proyecto de KiCad, organizado por versión y revisión (por ejemplo `parla-linea/parla-linea-v-0-rev-a/`).
 
-### Principales
-
-| módulo | formato | interfaz | entradas | salidas | docs |
-| --- | --- | --- | --- | --- | --- |
-| [parla-linea](https://github.com/piruetasxyz/parla/tree/main/parla-linea) | standalone | 2x potes | 1x TRS 1/8" | 1x parlante, 1x TRS 1/8" | [docs](./docs/parla-linea.md) |
-| [parla-linea-extensor](https://github.com/piruetasxyz/parla/tree/main/parla-linea-extensor) | standalone | — | 1x TRS 1/8" | 1x parlante | [docs](./docs/parla-linea-extensor.md) |
-| [parla-eurorack](https://github.com/piruetasxyz/parla/tree/main/parla-eurorack) | eurorack | 2x potes | 1x TS 1/8" | 1x parlante, 1x TS 1/8" | [docs](./docs/parla-eurorack.md) |
-| [parla-eurorack-extensor](https://github.com/piruetasxyz/parla/tree/main/parla-eurorack-extensor) | eurorack | — | 1x TS 1/8" | 1x parlante | [docs](./docs/parla-eurorack-extensor.md) |
-
-### Otros
-
-| módulo | formato | interfaz | entradas | salidas | docs |
-| --- | --- | --- | --- | --- | --- |
-| [parla-guitarra](https://github.com/piruetasxyz/parla/tree/main/parla-guitarra) | standalone | 1x pote | 1x TS 1/4" | 1x parlante | [docs](./docs/parla-guitarra.md) |
-| [parla-estereo](https://github.com/piruetasxyz/parla/tree/main/parla-estereo) | standalone | 2x potes | 1x TRS 1/8" | 2x parlantes | [docs](./docs/parla-estereo.md) |
+| | [parla-linea](https://github.com/piruetasxyz/parla/tree/main/parla-linea) | [parla-linea-extensor](https://github.com/piruetasxyz/parla/tree/main/parla-linea-extensor) | [parla-eurorack](https://github.com/piruetasxyz/parla/tree/main/parla-eurorack) | [parla-eurorack-extensor](https://github.com/piruetasxyz/parla/tree/main/parla-eurorack-extensor) | [parla-guitarra](https://github.com/piruetasxyz/parla/tree/main/parla-guitarra) | [parla-estereo](https://github.com/piruetasxyz/parla/tree/main/parla-estereo) |
+| --- | --- | --- | --- | --- | --- | --- |
+| **formato** | standalone | standalone | eurorack | eurorack | standalone | standalone |
+| **alimentación** | por definir | por definir | por definir | por definir | 9V (bornera) | por definir |
+| **chip** | por definir | por definir | por definir | por definir | LM386 | por definir |
+| **interfaz** | 2x potes | — | 2x potes | — | 1x pote | 2x potes |
+| **entradas** | 1x línea | 1x línea | 1x eurorack | 1x eurorack | 1x guitarra | 1x línea estéreo |
+| **conector entrada** | TRS 1/8" | TRS 1/8" | TS 1/8" | TS 1/8" | TS 1/4" | TRS 1/8" |
+| **salidas** | 1x parlante, 1x línea | 1x parlante | 1x parlante, 1x eurorack | 1x parlante | 1x parlante | 2x parlantes |
+| **conector salida** | parlante: por definir, línea: TRS 1/8" | parlante: por definir | parlante: por definir, eurorack: TS 1/8" | parlante: por definir | parlante: por definir | parlantes: por definir |
+| **docs** | [docs](./docs/parla-linea.md) | [docs](./docs/parla-linea-extensor.md) | [docs](./docs/parla-eurorack.md) | [docs](./docs/parla-eurorack-extensor.md) | [docs](./docs/parla-guitarra.md) | [docs](./docs/parla-estereo.md) |
 
 ## Documentación
 
