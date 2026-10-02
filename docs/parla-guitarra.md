@@ -28,16 +28,21 @@ Generado a partir de `parla-guitarra/parla-guitarra-v-0-rev-a/parla-guitarra-v-0
 <!-- BOM_TABLE_START -->
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
-| C2 | 1 | 470n | *(sin huella asignada)* | Capacitor cerámico |
-| C3, C4, C5 | 3 | 47u | *(sin huella asignada)* | Capacitor electrolítico |
-| C6 | 1 | 200n | *(sin huella asignada)* | Capacitor cerámico |
+| C3 | 1 | 220u | *(sin huella asignada)* | Capacitor electrolítico |
+| C5 | 1 | 47u | *(sin huella asignada)* | Capacitor electrolítico |
+| C6, C7, C9 | 3 | 100n | *(sin huella asignada)* | Capacitor cerámico |
+| C8 | 1 | 47n | *(sin huella asignada)* | Capacitor cerámico |
+| C10 | 1 | 100p | *(sin huella asignada)* | Capacitor cerámico |
 | D1 | 1 | D | *(sin huella asignada)* | Device:D |
+| D2, D3 | 2 | 1N4148 | Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal | Diode:1N4148 |
 | J1 | 1 | entrada | *(sin huella asignada)* | Jack de audio mono |
 | J2 | 1 | Screw_Terminal_01x02 | TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm | Bornera de 2 pines |
 | LS1 | 1 | Speaker | TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm | Parlante |
-| RV1 | 1 | 5k | *(sin huella asignada)* | Potenciómetro |
+| R1 | 1 | 10 | *(sin huella asignada)* | Resistencia |
+| R2 | 1 | 1M | *(sin huella asignada)* | Resistencia |
+| RV1 | 1 | 1k | *(sin huella asignada)* | Potenciómetro |
 | U1 | 1 | LM386 | Package_DIP:DIP-8_W7.62mm_Socket_LongPads | Amplificador de audio LM386 |
 | U2 | 1 | TL072 | *(sin huella asignada)* | Amplifier_Operational:TL072 |
 
-12 componentes en total. Los ítems marcados *(sin huella asignada)* todavía no están completos en el esquemático — hay que completarlos antes de generar gerbers o comprar partes para esta revisión.
+18 componentes en total. Los ítems marcados *(sin huella asignada)* todavía no están completos en el esquemático — hay que completarlos antes de generar gerbers o comprar partes para esta revisión.
 <!-- BOM_TABLE_END -->
