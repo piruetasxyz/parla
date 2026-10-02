@@ -259,6 +259,278 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Operational:TL072"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL072"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TL072_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL072_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL072_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1008,6 +1280,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -1617,6 +2077,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "alimentacion 9v"
+		(exclude_from_sim no)
+		(at 19.304 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21584c9d-4703-443d-9bd9-c3fb5b460f8e")
+	)
+	(text "diodo de proteccion\ncondensadores estabilizacion"
+		(exclude_from_sim no)
+		(at 16.256 41.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f9f85d2-d71f-4a23-9165-240044bed10c")
+	)
 	(text "lm386\n01:\n02: a GND por C 470n\n03: a GND por C 220p, \n04: a GND\n05: \n06: a 5V\n07: \n08: "
 		(exclude_from_sim no)
 		(at 16.256 112.522 0)
@@ -1635,7 +2117,7 @@
 		(uuid "9a28fcb4-329c-4d76-9e28-e6e158138758")
 	)
 	(no_connect
-		(at 43.18 72.39)
+		(at 30.48 69.85)
 		(uuid "b2b1a521-1392-4067-879e-b4b0ce8abb17")
 	)
 	(wire
@@ -1700,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 77.47) (xy 45.72 88.9)
+			(xy 33.02 74.93) (xy 33.02 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 57.15 102.87)
+			(xy 39.37 72.39) (xy 39.37 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1737,16 +2219,6 @@
 			(type default)
 		)
 		(uuid "515647c2-7d00-4821-9fce-ef139575f64a")
-	)
-	(wire
-		(pts
-			(xy 33.02 33.02) (xy 48.26 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b527e76-3e61-460b-ada6-e6003ae046d1")
 	)
 	(wire
 		(pts
@@ -1810,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 102.87) (xy 83.82 102.87)
+			(xy 39.37 102.87) (xy 83.82 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1850,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 77.47) (xy 45.72 77.47)
+			(xy 30.48 74.93) (xy 33.02 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1960,6 +2432,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 33.02) (xy 48.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e390a644-83a3-4714-89a1-37a4608a37ce")
+	)
+	(wire
+		(pts
 			(xy 63.5 74.93) (xy 63.5 59.69)
 		)
 		(stroke
@@ -1980,6 +2462,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 33.02) (xy 35.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2911a7a-5205-4748-b303-965c0f64a72d")
+	)
+	(wire
+		(pts
 			(xy 124.46 80.01) (xy 119.38 80.01)
 		)
 		(stroke
@@ -1990,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 74.93) (xy 57.15 74.93)
+			(xy 30.48 72.39) (xy 39.37 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2330,7 +2822,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 38.1 74.93 0)
+		(at 25.4 72.39 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2342,7 +2834,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d3426b8-6028-41a5-a7e6-2f2943761a47")
 		(property "Reference" "J1"
-			(at 33.02 73.0249 0)
+			(at 20.32 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2352,8 +2844,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 33.02 75.5649 0)
+		(property "Value" "entrada"
+			(at 20.32 73.0249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2364,7 +2856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 74.93 0)
+			(at 25.4 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +2867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 74.93 0)
+			(at 25.4 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2386,7 +2878,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 38.1 74.93 0)
+			(at 25.4 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,6 +2901,104 @@
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 156.21 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32e04bb3-c006-4c79-8f19-8f1568ce4a8d")
+		(property "Reference" "U2"
+			(at 156.21 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 156.21 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 156.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 156.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c0098ef-6279-49fb-a532-2d60ba13fd5a")
+		)
+		(pin "6"
+			(uuid "11e73042-e334-43d6-ab8d-d692633fd011")
+		)
+		(pin "5"
+			(uuid "329e71fe-34bb-477f-9054-6535be1df01b")
+		)
+		(pin "3"
+			(uuid "fd31d2b9-f468-43c2-b7ba-d976b8e853f0")
+		)
+		(pin "8"
+			(uuid "f823818e-db6e-4cc3-b6fc-1ec1587d1b7a")
+		)
+		(pin "7"
+			(uuid "3cec39dd-800b-4cce-92b2-748bd8c43ea2")
+		)
+		(pin "1"
+			(uuid "70894659-90a8-4736-8052-0e752cb2d6e7")
+		)
+		(pin "4"
+			(uuid "4d7a3193-4f09-4055-ad3a-fe4ad948e3d8")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2687,6 +3277,108 @@
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 39.37 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7058de79-aafb-4e81-b553-334d813f7577")
+		(property "Reference" "D1"
+			(at 39.37 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 39.37 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 39.37 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 39.37 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 39.37 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fae1e058-bb4e-4849-9aad-f8b89b16ccec")
+		)
+		(pin "1"
+			(uuid "bf7b67c7-f2dd-4f09-a7ec-5ad71b957cf6")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3487,6 +4179,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 179.07 92.71 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8f5fc32-1cec-47b9-a1b6-7904843cd6f2")
+		(property "Reference" "U2"
+			(at 179.07 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 179.07 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 179.07 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 179.07 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c0098ef-6279-49fb-a532-2d60ba13fd5a")
+		)
+		(pin "6"
+			(uuid "11e73042-e334-43d6-ab8d-d692633fd011")
+		)
+		(pin "5"
+			(uuid "329e71fe-34bb-477f-9054-6535be1df01b")
+		)
+		(pin "3"
+			(uuid "fd31d2b9-f468-43c2-b7ba-d976b8e853f0")
+		)
+		(pin "8"
+			(uuid "f823818e-db6e-4cc3-b6fc-1ec1587d1b7a")
+		)
+		(pin "7"
+			(uuid "3cec39dd-800b-4cce-92b2-748bd8c43ea2")
+		)
+		(pin "1"
+			(uuid "70894659-90a8-4736-8052-0e752cb2d6e7")
+		)
+		(pin "4"
+			(uuid "4d7a3193-4f09-4055-ad3a-fe4ad948e3d8")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 105.41 38.1 0)
 		(unit 1)
@@ -3566,7 +4356,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 88.9 0)
+		(at 33.02 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3577,7 +4367,7 @@
 		(fields_autoplaced yes)
 		(uuid "f310a8c0-c636-4076-9201-5676dc23c945")
 		(property "Reference" "#PWR07"
-			(at 45.72 95.25 0)
+			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +4378,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 93.98 0)
+			(at 33.02 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3598,7 +4388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 88.9 0)
+			(at 33.02 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3609,7 +4399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 88.9 0)
+			(at 33.02 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +4410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 88.9 0)
+			(at 33.02 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,6 +4604,106 @@
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
 					(reference "#PWR013")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 179.07 62.23 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc5e8408-89b1-44e1-8ca2-03bfdf4a3782")
+		(property "Reference" "U2"
+			(at 177.8 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 177.8 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 179.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 179.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c0098ef-6279-49fb-a532-2d60ba13fd5a")
+		)
+		(pin "6"
+			(uuid "11e73042-e334-43d6-ab8d-d692633fd011")
+		)
+		(pin "5"
+			(uuid "329e71fe-34bb-477f-9054-6535be1df01b")
+		)
+		(pin "3"
+			(uuid "fd31d2b9-f468-43c2-b7ba-d976b8e853f0")
+		)
+		(pin "8"
+			(uuid "f823818e-db6e-4cc3-b6fc-1ec1587d1b7a")
+		)
+		(pin "7"
+			(uuid "3cec39dd-800b-4cce-92b2-748bd8c43ea2")
+		)
+		(pin "1"
+			(uuid "70894659-90a8-4736-8052-0e752cb2d6e7")
+		)
+		(pin "4"
+			(uuid "4d7a3193-4f09-4055-ad3a-fe4ad948e3d8")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
