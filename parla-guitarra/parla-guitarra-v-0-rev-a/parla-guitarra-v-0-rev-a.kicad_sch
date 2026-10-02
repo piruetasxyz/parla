@@ -5,8 +5,8 @@
 	(uuid "ce7bec08-c252-4eda-9576-59fd5b1f2a43")
 	(paper "A5")
 	(title_block
-		(title "parla-guitarra")
-		(date "2026-09-21")
+		(title "parla-guitarra-v-0")
+		(date "2026-10-02")
 		(rev "rev-a")
 		(company "piruetas SpA")
 	)
@@ -1468,6 +1468,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -1822,6 +1962,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+9V"
 			(power global)
 			(pin_numbers
@@ -2077,9 +2404,33 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 13.97 12.7)
+		(end 93.98 52.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c37d7ce1-f9c4-41a1-acd0-8967dc2c1b96")
+	)
+	(rectangle
+		(start 153.67 15.24)
+		(end 184.15 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "da6f90f7-c2c7-46a0-a10c-8a5c82a7de0a")
+	)
 	(text "alimentacion 9v"
 		(exclude_from_sim no)
-		(at 19.304 19.558 0)
+		(at 15.24 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2088,9 +2439,53 @@
 		)
 		(uuid "21584c9d-4703-443d-9bd9-c3fb5b460f8e")
 	)
-	(text "diodo de proteccion\ncondensadores estabilizacion"
+	(text "entrada de audio\njack TS 1/4\""
 		(exclude_from_sim no)
-		(at 16.256 41.656 0)
+		(at 21.59 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22afd264-2825-4580-a1ab-7f43f1687e2b")
+	)
+	(text "alimentacion\nopamps"
+		(exclude_from_sim no)
+		(at 80.01 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bc5775c-3892-46a0-96a2-1d8e5378faea")
+	)
+	(text "capacitores de\nestabilizacion"
+		(exclude_from_sim no)
+		(at 57.15 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ee5c7a7-70ab-4c69-a230-8fb27a6dcf84")
+	)
+	(text "opamp no usado"
+		(exclude_from_sim no)
+		(at 154.94 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "727f450c-e113-4d6f-b9c7-1f0c5d1af78c")
+	)
+	(text "diodo de\nproteccion"
+		(exclude_from_sim no)
+		(at 35.56 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2099,9 +2494,20 @@
 		)
 		(uuid "8f9f85d2-d71f-4a23-9165-240044bed10c")
 	)
+	(text "C desacople"
+		(exclude_from_sim no)
+		(at 39.37 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a588eaaa-548c-45f3-9b7b-91aa4ed0c6d1")
+	)
 	(text "lm386\n01:\n02: a GND por C 470n\n03: a GND por C 220p, \n04: a GND\n05: \n06: a 5V\n07: \n08: "
 		(exclude_from_sim no)
-		(at 16.256 112.522 0)
+		(at 16.51 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2111,14 +2517,70 @@
 		(uuid "a5ae822d-20ed-491d-8937-5a6e382e7894")
 	)
 	(junction
-		(at 124.46 80.01)
+		(at 82.55 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a28fcb4-329c-4d76-9e28-e6e158138758")
+		(uuid "041dede9-0ca4-496b-aeeb-1f93da966b63")
+	)
+	(junction
+		(at 52.07 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c24759-ec98-4c6b-bfac-c4b849fce24a")
+	)
+	(junction
+		(at 82.55 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5c5b64b-8e44-484a-b08b-60ebd7a42678")
+	)
+	(junction
+		(at 107.95 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca621749-4f7e-46dc-96ce-d1d6d70c45d4")
+	)
+	(junction
+		(at 143.51 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc097358-d076-4d51-9562-eec5b6c463ce")
+	)
+	(junction
+		(at 55.88 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d291a5b5-d239-4303-ae90-41ae869987b5")
+	)
+	(junction
+		(at 55.88 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d617cc49-0e5b-420c-b95d-07b33a07ec5c")
 	)
 	(no_connect
-		(at 30.48 69.85)
+		(at 30.48 83.82)
 		(uuid "b2b1a521-1392-4067-879e-b4b0ce8abb17")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f89f8c-c501-4eee-b4cf-595e741a9dc9")
+	)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 55.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c5ad2b-d7c6-44fc-90a3-add14a6f19a1")
 	)
 	(wire
 		(pts
@@ -2132,6 +2594,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 64.77) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12073d2d-b4b5-410a-bf77-21c8326a28c8")
+	)
+	(wire
+		(pts
 			(xy 110.49 72.39) (xy 124.46 72.39)
 		)
 		(stroke
@@ -2142,23 +2614,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 64.77) (xy 143.51 74.93)
+			(xy 143.51 85.09) (xy 143.51 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "265c705b-5d17-4140-9eca-224474396a7d")
+		(uuid "22cd44cc-7251-47b7-ad0b-352a0a423df9")
 	)
 	(wire
 		(pts
-			(xy 115.57 83.82) (xy 115.57 87.63)
+			(xy 115.57 85.09) (xy 107.95 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2937a402-a04c-40c0-acae-efbc90a12ccc")
+		(uuid "25f8cb5f-c905-44c1-9975-4b482e4680f9")
+	)
+	(wire
+		(pts
+			(xy 143.51 62.23) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a244e24-572e-470c-984d-504e671e8e84")
 	)
 	(wire
 		(pts
@@ -2182,7 +2664,57 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 74.93) (xy 33.02 87.63)
+			(xy 160.02 33.02) (xy 160.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c749d15-0f04-4a0c-be9f-a314d0db4518")
+	)
+	(wire
+		(pts
+			(xy 55.88 64.77) (xy 55.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3f4696-d210-44c2-9bfb-f0563360364c")
+	)
+	(wire
+		(pts
+			(xy 85.09 26.67) (xy 85.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30323d83-9784-403d-ad9a-40481e20042b")
+	)
+	(wire
+		(pts
+			(xy 180.34 30.48) (xy 177.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32116ae9-949a-4f06-9582-ccdcaa1279be")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 180.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37993161-9e42-4e38-9608-173595da6da5")
+	)
+	(wire
+		(pts
+			(xy 33.02 88.9) (xy 33.02 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2192,43 +2724,93 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 124.46 87.63)
+			(xy 143.51 74.93) (xy 143.51 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c75b505-131d-4226-a607-f66a2d6698fd")
+		(uuid "3b74bff9-42fe-4be4-b8c0-79e59fee80d1")
 	)
 	(wire
 		(pts
-			(xy 39.37 72.39) (xy 39.37 102.87)
+			(xy 30.48 86.36) (xy 40.64 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4051983e-990d-4fda-938f-84744def8919")
+		(uuid "3c1e4891-b160-419d-b859-e1c18d3a833d")
 	)
 	(wire
 		(pts
-			(xy 100.33 64.77) (xy 83.82 64.77)
+			(xy 160.02 40.64) (xy 180.34 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "515647c2-7d00-4821-9fce-ef139575f64a")
+		(uuid "3e2da730-0df1-4e7b-aea1-66ac522f8610")
 	)
 	(wire
 		(pts
-			(xy 115.57 62.23) (xy 130.81 62.23)
+			(xy 71.12 64.77) (xy 82.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ffea10-7267-44fd-a891-493ff934197a")
+	)
+	(wire
+		(pts
+			(xy 82.55 64.77) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48618e85-415e-4e0f-9f96-c39500f50df2")
+	)
+	(wire
+		(pts
+			(xy 55.88 74.93) (xy 63.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ec52e4-0dac-4704-acca-810fed25a71f")
+	)
+	(wire
+		(pts
+			(xy 52.07 86.36) (xy 52.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7417b0-e737-482e-9d11-c751d73de1ae")
+	)
+	(wire
+		(pts
+			(xy 115.57 62.23) (xy 143.51 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f61beb3-a7c0-49fc-9656-c1aff12e34c9")
+	)
+	(wire
+		(pts
+			(xy 63.5 64.77) (xy 55.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c6bef2-d8b6-44de-877a-29295e2c6902")
 	)
 	(wire
 		(pts
@@ -2242,13 +2824,63 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 64.77) (xy 143.51 64.77)
+			(xy 63.5 58.42) (xy 55.88 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6dc74c2f-d702-4091-95e2-1fa3df918f1e")
+		(uuid "68a0a390-67b9-46d9-862b-878aea5c6d1d")
+	)
+	(wire
+		(pts
+			(xy 82.55 74.93) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e3b593-8879-4f5e-824e-81b59ca22503")
+	)
+	(wire
+		(pts
+			(xy 162.56 33.02) (xy 160.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b07278-94c0-4632-99ff-1fe22de3e934")
+	)
+	(wire
+		(pts
+			(xy 143.51 62.23) (xy 143.51 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794f8700-1cb7-43c2-b9ba-1641d26d2104")
+	)
+	(wire
+		(pts
+			(xy 52.07 99.06) (xy 52.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4ee30a-75cc-47a7-8252-3a837024a732")
+	)
+	(wire
+		(pts
+			(xy 48.26 86.36) (xy 52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fcf7c7-b8dc-4c48-87d3-4239c4f64df4")
 	)
 	(wire
 		(pts
@@ -2262,16 +2894,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 82.55) (xy 63.5 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9214d0a7-fa36-4609-b1dc-1e94b7653f82")
-	)
-	(wire
-		(pts
 			(xy 107.95 29.21) (xy 118.11 29.21)
 		)
 		(stroke
@@ -2279,16 +2901,6 @@
 			(type default)
 		)
 		(uuid "96503b28-013d-4223-9786-a894b7cdceec")
-	)
-	(wire
-		(pts
-			(xy 39.37 102.87) (xy 83.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a728141-7325-4300-a735-f472891d0225")
 	)
 	(wire
 		(pts
@@ -2302,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 35.56) (xy 48.26 43.18)
+			(xy 48.26 35.56) (xy 48.26 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2322,7 +2934,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 74.93) (xy 33.02 74.93)
+			(xy 30.48 88.9) (xy 33.02 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 35.56) (xy 82.55 43.18)
+			(xy 71.12 35.56) (xy 71.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 24.13) (xy 48.26 33.02)
+			(xy 48.26 26.67) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2352,17 +2964,27 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 64.77) (xy 83.82 102.87)
+			(xy 71.12 74.93) (xy 82.55 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "baec24ca-2793-47b8-982e-f7f4a66d2bc5")
+		(uuid "b71c2051-74c6-470f-80fe-cd57f177916a")
 	)
 	(wire
 		(pts
-			(xy 82.55 24.13) (xy 82.55 27.94)
+			(xy 168.91 64.77) (xy 168.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6fe7ce-1e03-4d90-a82a-e4eb6ec3e7f7")
+	)
+	(wire
+		(pts
+			(xy 71.12 26.67) (xy 71.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2372,13 +2994,43 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 100.33 59.69)
+			(xy 85.09 40.64) (xy 85.09 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d37f957a-068d-49cd-8232-f29e8f2bd8be")
+		(uuid "be34df98-4701-4618-af85-c7957a1e062d")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 82.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c512c42e-8775-41b0-9a8c-25a9844a8ba3")
+	)
+	(wire
+		(pts
+			(xy 55.88 81.28) (xy 55.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78f77fd-7df6-4a95-9bc5-b28ddda7c3d0")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 82.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e8daf6-a239-4e9a-a73a-5f39f82321c5")
 	)
 	(wire
 		(pts
@@ -2392,23 +3044,23 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 124.46 80.01)
+			(xy 115.57 83.82) (xy 115.57 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5a04787-1a4f-4b1a-911d-706ea6876742")
+		(uuid "dac1dc99-ac41-4620-9594-567b1cffd5e8")
 	)
 	(wire
 		(pts
-			(xy 138.43 62.23) (xy 147.32 62.23)
+			(xy 52.07 86.36) (xy 59.69 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da02be9e-7989-4a9a-a5f5-6e607f92b875")
+		(uuid "df7d38cb-fe65-48ff-9ace-eb58467c8654")
 	)
 	(wire
 		(pts
@@ -2422,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 24.13) (xy 68.58 27.94)
+			(xy 57.15 26.67) (xy 57.15 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2442,16 +3094,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 74.93) (xy 63.5 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7db2b86-1872-47bf-9619-47e7c3e1dbf3")
-	)
-	(wire
-		(pts
 			(xy 118.11 41.91) (xy 118.11 44.45)
 		)
 		(stroke
@@ -2459,6 +3101,16 @@
 			(type default)
 		)
 		(uuid "eece91b3-97eb-4457-a40b-f537cb34bbf8")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bd401b-f6f1-40ae-8ef7-c7b93b9d90d7")
 	)
 	(wire
 		(pts
@@ -2472,6 +3124,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 83.82) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c3d638-9e96-44c6-a434-f5bbfdf76b47")
+	)
+	(wire
+		(pts
 			(xy 124.46 80.01) (xy 119.38 80.01)
 		)
 		(stroke
@@ -2482,17 +3144,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 72.39) (xy 39.37 72.39)
+			(xy 59.69 81.28) (xy 55.88 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3de8167-b161-4da2-a9b4-a70de05b0476")
+		(uuid "f4a36e65-528d-4d76-bae3-22ac4959c25b")
 	)
 	(wire
 		(pts
-			(xy 68.58 35.56) (xy 68.58 43.18)
+			(xy 57.15 35.56) (xy 57.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2500,10 +3162,30 @@
 		)
 		(uuid "f6c999d1-f75a-40b5-8d82-a106acad18c2")
 	)
+	(label "VREF"
+		(at 162.56 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34ae4411-876e-4d1b-846e-dfae512a18fe")
+	)
+	(label "VREF"
+		(at 52.07 102.87 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89adb592-78bf-4277-a6ab-004da38607d4")
+	)
 	(symbol
-		(lib_id "Device:C")
-		(at 63.5 78.74 0)
-		(unit 1)
+		(lib_id "Amplifier_Operational:TL072")
+		(at 87.63 33.02 0)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2511,9 +3193,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16a7a015-e564-4bdb-b42c-28c3f4e6ee00")
-		(property "Reference" "C2"
-			(at 67.31 77.4699 0)
+		(uuid "07a6cb0e-3ac9-4dcd-8f63-3a85530a94ec")
+		(property "Reference" "U2"
+			(at 86.36 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2523,8 +3205,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 67.31 80.0099 0)
+		(property "Value" "TL072"
+			(at 86.36 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2535,7 +3217,105 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.4652 82.55 0)
+			(at 87.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 87.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 87.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "74978450-9439-4112-9273-56ab5ad436ce")
+		)
+		(pin "5"
+			(uuid "5c79bb45-ad1b-4b9d-a887-ef2ac74fdcb5")
+		)
+		(pin "1"
+			(uuid "f54bd4cc-15b0-4f7c-8567-f479c1204400")
+		)
+		(pin "2"
+			(uuid "8d816d50-9973-43c6-a03e-5dab064237f2")
+		)
+		(pin "6"
+			(uuid "90fe7358-ba2a-4e08-be2f-9e2cb41271eb")
+		)
+		(pin "7"
+			(uuid "a6ee24c2-c001-4008-a3b0-63e7e2ccefad")
+		)
+		(pin "8"
+			(uuid "797efa0e-35d5-419b-84b0-3207d167d5fa")
+		)
+		(pin "4"
+			(uuid "14e2d4a3-a1f4-455c-807e-e5e69cfea62c")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 86.36 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09ffd446-e8ce-4045-b4ba-4e66abd17387")
+		(property "Reference" "C9"
+			(at 44.45 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 44.45 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 87.3252 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,7 +3326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 78.74 0)
+			(at 44.45 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2557,7 +3337,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 63.5 78.74 0)
+			(at 44.45 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,23 +3348,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b4e4bd8-d7fc-44c9-824e-e9cccd38ab42")
+			(uuid "4322ec5b-a357-4b29-adfb-f80e6fb992d1")
 		)
 		(pin "2"
-			(uuid "25c3b53c-1470-41c4-b04e-c36854ea533e")
+			(uuid "d711bc39-eb5c-4528-8927-e35414f0d247")
 		)
 		(instances
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "C2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 88.9 0)
+		(lib_id "Device:C_Polarized")
+		(at 160.02 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2593,10 +3373,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16dff3cf-7826-45b7-b7f3-a206da366f03")
-		(property "Reference" "#PWR04"
-			(at 63.5 95.25 0)
-			(hide yes)
+		(uuid "1408e852-a796-41fb-bcdd-81fe3a53bb01")
+		(property "Reference" "C3"
+			(at 159.131 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2605,8 +3384,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 63.5 93.98 0)
+		(property "Value" "220u"
+			(at 159.131 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2616,7 +3395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 88.9 0)
+			(at 163.83 61.2648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,7 +3406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 88.9 0)
+			(at 160.02 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2637,8 +3416,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 88.9 0)
+		(property "Description" "Polarized capacitor"
+			(at 160.02 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2647,14 +3426,115 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "2ba8fe74-5441-49e3-9e57-b8917375663a")
 		)
 		(pin "1"
-			(uuid "6b949ce1-84a8-4c55-8fbd-366f35fdd521")
+			(uuid "8d56ed3a-87c6-4936-94ac-448ad6ce6cb9")
 		)
 		(instances
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "#PWR04")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 67.31 83.82 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18da2c79-a317-4d05-bcb4-499d305203f7")
+		(property "Reference" "U2"
+			(at 67.31 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 67.31 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 67.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 67.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "74978450-9439-4112-9273-56ab5ad436ce")
+		)
+		(pin "5"
+			(uuid "5c79bb45-ad1b-4b9d-a887-ef2ac74fdcb5")
+		)
+		(pin "1"
+			(uuid "f54bd4cc-15b0-4f7c-8567-f479c1204400")
+		)
+		(pin "2"
+			(uuid "8d816d50-9973-43c6-a03e-5dab064237f2")
+		)
+		(pin "6"
+			(uuid "90fe7358-ba2a-4e08-be2f-9e2cb41271eb")
+		)
+		(pin "7"
+			(uuid "a6ee24c2-c001-4008-a3b0-63e7e2ccefad")
+		)
+		(pin "8"
+			(uuid "797efa0e-35d5-419b-84b0-3207d167d5fa")
+		)
+		(pin "4"
+			(uuid "14e2d4a3-a1f4-455c-807e-e5e69cfea62c")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2662,7 +3542,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 82.55 24.13 0)
+		(at 71.12 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2673,7 +3553,7 @@
 		(fields_autoplaced yes)
 		(uuid "214bf36b-2bab-4f41-86d2-d349df5b94a3")
 		(property "Reference" "#PWR012"
-			(at 82.55 27.94 0)
+			(at 71.12 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,7 +3564,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 82.55 19.05 0)
+			(at 71.12 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2694,7 +3574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 24.13 0)
+			(at 71.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +3585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 24.13 0)
+			(at 71.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +3596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 82.55 24.13 0)
+			(at 71.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2739,8 +3619,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 170.18 30.48 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2299d623-1127-4e17-89a8-888f657d436b")
+		(property "Reference" "U2"
+			(at 170.18 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 170.18 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 170.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 170.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "74978450-9439-4112-9273-56ab5ad436ce")
+		)
+		(pin "5"
+			(uuid "5c79bb45-ad1b-4b9d-a887-ef2ac74fdcb5")
+		)
+		(pin "1"
+			(uuid "f54bd4cc-15b0-4f7c-8567-f479c1204400")
+		)
+		(pin "2"
+			(uuid "8d816d50-9973-43c6-a03e-5dab064237f2")
+		)
+		(pin "6"
+			(uuid "90fe7358-ba2a-4e08-be2f-9e2cb41271eb")
+		)
+		(pin "7"
+			(uuid "a6ee24c2-c001-4008-a3b0-63e7e2ccefad")
+		)
+		(pin "8"
+			(uuid "797efa0e-35d5-419b-84b0-3207d167d5fa")
+		)
+		(pin "4"
+			(uuid "14e2d4a3-a1f4-455c-807e-e5e69cfea62c")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 82.55 31.75 0)
+		(at 71.12 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2751,7 +3728,7 @@
 		(fields_autoplaced yes)
 		(uuid "23c2d17e-f4ee-4b8b-8b2f-28960906a2ea")
 		(property "Reference" "C6"
-			(at 86.36 30.4799 0)
+			(at 74.93 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2761,8 +3738,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200n"
-			(at 86.36 33.0199 0)
+		(property "Value" "100n"
+			(at 74.93 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2773,7 +3750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.5152 35.56 0)
+			(at 72.0852 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +3761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 31.75 0)
+			(at 71.12 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +3772,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 31.75 0)
+			(at 71.12 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,8 +3798,187 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 67.31 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28e79ad3-c7d8-434f-8ca1-3219bb2a9d1d")
+		(property "Reference" "D2"
+			(at 71.12 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 73.66 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 67.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 67.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 67.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 67.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f9557d4-0609-4624-9709-568fd6bfa73c")
+		)
+		(pin "2"
+			(uuid "8f482ccd-c322-4876-b67c-98c0933f1d7e")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 85.09 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c3216f6-bfee-4673-9b99-5e85e7b256a0")
+		(property "Reference" "#PWR016"
+			(at 85.09 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 85.09 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 85.09 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ec461cc-4ff3-4568-9279-4e7580e07c43")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 25.4 72.39 0)
+		(at 25.4 86.36 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2834,7 +3990,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d3426b8-6028-41a5-a7e6-2f2943761a47")
 		(property "Reference" "J1"
-			(at 20.32 70.4849 0)
+			(at 20.32 84.4549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2845,7 +4001,7 @@
 			)
 		)
 		(property "Value" "entrada"
-			(at 20.32 73.0249 0)
+			(at 20.32 86.9949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2856,7 +4012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 72.39 0)
+			(at 25.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +4023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 72.39 0)
+			(at 25.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,7 +4034,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 25.4 72.39 0)
+			(at 25.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,8 +4063,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
-		(at 156.21 92.71 0)
+		(lib_id "Device:C")
+		(at 118.11 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2917,9 +4073,32 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32e04bb3-c006-4c79-8f19-8f1568ce4a8d")
-		(property "Reference" "U2"
-			(at 156.21 82.55 0)
+		(uuid "2dddc985-67a4-4e71-ae98-55fa538ae281")
+		(property "Reference" "C7"
+			(at 121.92 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 121.92 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.0752 41.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2928,8 +4107,68 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
-			(at 156.21 85.09 0)
+		(property "Datasheet" ""
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87b7b6f2-9193-42fb-aa9a-a991b42fe207")
+		)
+		(pin "2"
+			(uuid "a4507892-8c5b-4b11-86a2-8039495d3b5b")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56802be8-21df-4349-b2c4-d70dd9624fb7")
+		(property "Reference" "#PWR015"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2939,7 +4178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 92.71 0)
+			(at 85.09 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2949,8 +4188,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 156.21 92.71 0)
+		(property "Datasheet" ""
+			(at 85.09 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2960,8 +4199,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 156.21 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,35 +4209,174 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "3c0098ef-6279-49fb-a532-2d60ba13fd5a")
-		)
-		(pin "6"
-			(uuid "11e73042-e334-43d6-ab8d-d692633fd011")
-		)
-		(pin "5"
-			(uuid "329e71fe-34bb-477f-9054-6535be1df01b")
-		)
-		(pin "3"
-			(uuid "fd31d2b9-f468-43c2-b7ba-d976b8e853f0")
-		)
-		(pin "8"
-			(uuid "f823818e-db6e-4cc3-b6fc-1ec1587d1b7a")
-		)
-		(pin "7"
-			(uuid "3cec39dd-800b-4cce-92b2-748bd8c43ea2")
 		)
 		(pin "1"
-			(uuid "70894659-90a8-4736-8052-0e752cb2d6e7")
-		)
-		(pin "4"
-			(uuid "4d7a3193-4f09-4055-ad3a-fe4ad948e3d8")
+			(uuid "143ea062-aaba-41c6-a389-6e85294aec6e")
 		)
 		(instances
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "U2")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b3a832f-b789-492f-a981-ecaca90d7c78")
+		(property "Reference" "#PWR03"
+			(at 143.51 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3104732-7338-435a-9635-48ecb8171f6b")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c3850f6-8fca-4acd-bbf8-fc199b3efd77")
+		(property "Reference" "C8"
+			(at 147.32 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47n"
+			(at 147.32 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.4752 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5fadd31-0133-4025-8e9f-e29cb97eb772")
+		)
+		(pin "2"
+			(uuid "e309b8c8-437a-4368-afe2-acc771df8045")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3015,8 +4393,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48d33b11-438f-429d-86de-c21e817a0ae2")
+		(uuid "6185b8bb-5bf0-40a6-a7eb-aa5375d19ca8")
 		(property "Reference" "RV1"
 			(at 114.2999 77.47 0)
 			(show_name no)
@@ -3028,7 +4405,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "1k"
 			(at 116.8399 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3106,18 +4483,100 @@
 			)
 		)
 		(pin "3"
-			(uuid "8898e279-a578-4e0e-9887-7d4c6b892066")
+			(uuid "e41efbc7-8ead-47c2-ba3f-cd9e96435b27")
 		)
 		(pin "2"
-			(uuid "cd2961ab-9f4c-4a71-bf32-130cc53a1de8")
+			(uuid "f7600823-ec5b-4248-8fe3-0abdcee871ad")
 		)
 		(pin "1"
-			(uuid "ba9cea73-24c4-4092-8984-6f523ab782b4")
+			(uuid "fc7f967d-dda9-461d-9546-62300ed4204a")
 		)
 		(instances
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a813fef-c77f-4850-9218-1c9b0820fada")
+		(property "Reference" "R1"
+			(at 146.05 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 146.05 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad82d77d-8b45-4fed-b74a-b04bb01dc089")
+		)
+		(pin "1"
+			(uuid "2131573c-6167-4b78-bd5f-87603904c544")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3134,10 +4593,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c566236-022f-49aa-9d1f-e701e181f7fc")
 		(property "Reference" "J2"
-			(at 27.94 26.67 0)
+			(at 27.94 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3147,7 +4605,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 27.94 29.21 0)
+			(at 27.94 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3292,10 +4750,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7058de79-aafb-4e81-b553-334d813f7577")
 		(property "Reference" "D1"
-			(at 39.37 26.67 0)
+			(at 43.18 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3305,7 +4762,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 39.37 29.21 0)
+			(at 42.418 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3386,7 +4843,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 68.58 31.75 0)
+		(at 57.15 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3397,7 +4854,7 @@
 		(fields_autoplaced yes)
 		(uuid "836bfe0b-6cc4-40b1-9fd0-e01fbf0fe502")
 		(property "Reference" "C5"
-			(at 72.39 29.5909 0)
+			(at 60.96 29.5909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3408,7 +4865,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 72.39 32.1309 0)
+			(at 60.96 32.1309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3419,7 +4876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.5452 35.56 0)
+			(at 58.1152 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3430,7 +4887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 31.75 0)
+			(at 57.15 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,7 +4898,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 68.58 31.75 0)
+			(at 57.15 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,8 +4924,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 134.62 62.23 90)
+		(lib_id "Device:C")
+		(at 67.31 58.42 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3476,10 +4934,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94c0f8d2-c39b-4524-aeb0-88789aff1b6d")
-		(property "Reference" "C3"
-			(at 133.731 54.61 90)
+		(uuid "9a6ee067-234f-4c69-ae45-555622b3f657")
+		(property "Reference" "C10"
+			(at 63.5 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3488,8 +4945,8 @@
 				)
 			)
 		)
-		(property "Value" "47u"
-			(at 133.731 57.15 90)
+		(property "Value" "100p"
+			(at 71.12 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3499,7 +4956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 61.2648 0)
+			(at 71.12 59.3852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3510,7 +4967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 62.23 0)
+			(at 67.31 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,8 +4977,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 134.62 62.23 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,25 +4987,25 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "6d80c62d-9a53-4ca7-ab77-5932729c99e1")
 		)
 		(pin "1"
-			(uuid "be06a2f8-dc93-4ddd-a703-35e15dc019d4")
+			(uuid "e130405c-8b7b-456f-9c48-51c00d29836d")
+		)
+		(pin "2"
+			(uuid "3499bf82-4c17-4dc0-b2da-6d0328afa554")
 		)
 		(instances
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 118.11 38.1 0)
+		(lib_id "Device:Speaker")
+		(at 177.8 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3557,9 +5014,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9d298e2-094a-4ea1-85ff-0a83a768b255")
-		(property "Reference" "C4"
-			(at 121.92 35.9409 0)
+		(uuid "a0980733-0853-41bc-986d-b3b77955506d")
+		(property "Reference" "LS1"
+			(at 182.88 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3569,8 +5026,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
-			(at 121.92 38.4809 0)
+		(property "Value" "Speaker"
+			(at 182.88 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3580,8 +5037,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.0752 41.91 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 177.8 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3592,7 +5049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 38.1 0)
+			(at 177.546 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3602,8 +5059,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 118.11 38.1 0)
+		(property "Description" "Speaker"
+			(at 177.8 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,17 +5069,118 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "90950a0b-9778-4a06-ac85-8943b3919199")
 		)
 		(pin "1"
-			(uuid "46983b72-3c3e-4920-9c9c-5407d5f96b2c")
+			(uuid "04940059-f85c-4aa7-b6bf-224d832cbf04")
+		)
+		(pin "2"
+			(uuid "67742060-275c-44b3-8dd9-54dd4fd47a63")
 		)
 		(instances
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "C4")
+					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 67.31 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac3442d3-b3d2-4e28-9b8e-4569f21475cc")
+		(property "Reference" "D3"
+			(at 73.66 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 73.66 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd91d94b-71df-4d8d-9858-e4958e98e0ff")
+		)
+		(pin "2"
+			(uuid "7360bd33-7021-45aa-b90a-bec57aed5d47")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3630,7 +5188,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 68.58 24.13 0)
+		(at 57.15 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3641,7 +5199,7 @@
 		(fields_autoplaced yes)
 		(uuid "b34559e7-03f0-492c-8468-c9bc8bdb9537")
 		(property "Reference" "#PWR011"
-			(at 68.58 27.94 0)
+			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3652,7 +5210,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 68.58 19.05 0)
+			(at 57.15 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3662,7 +5220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 24.13 0)
+			(at 57.15 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3673,7 +5231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 24.13 0)
+			(at 57.15 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +5242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 68.58 24.13 0)
+			(at 57.15 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3701,88 +5259,6 @@
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Speaker")
-		(at 152.4 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3673f0a-da4d-43a0-9578-33cde2862832")
-		(property "Reference" "LS1"
-			(at 157.48 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Speaker"
-			(at 157.48 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 152.4 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.146 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Speaker"
-			(at 152.4 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b26c2bf-90c8-43c6-9041-8752a3beed6d")
-		)
-		(pin "2"
-			(uuid "13705d16-7496-497e-841b-d78d203c9cb1")
-		)
-		(instances
-			(project "parla-guitarra-v-0-rev-a"
-				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -3867,86 +5343,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 143.51 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce2fc3e6-1a27-4294-bb9c-cd5845bbc982")
-		(property "Reference" "#PWR05"
-			(at 143.51 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ee05a45-8fb8-41f1-be0a-7b29cf72a213")
-		)
-		(instances
-			(project "parla-guitarra-v-0-rev-a"
-				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+9V")
-		(at 48.26 24.13 0)
+		(at 48.26 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3957,7 +5355,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1b8d3cc-9598-4f60-adec-31e19b779263")
 		(property "Reference" "#PWR08"
-			(at 48.26 27.94 0)
+			(at 48.26 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3968,7 +5366,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 48.26 19.05 0)
+			(at 48.26 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3978,7 +5376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 24.13 0)
+			(at 48.26 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,7 +5387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 24.13 0)
+			(at 48.26 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +5398,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 48.26 24.13 0)
+			(at 48.26 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +5422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 43.18 0)
+		(at 48.26 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4035,7 +5433,7 @@
 		(fields_autoplaced yes)
 		(uuid "de88991b-8788-4e21-9aa9-25f31b0639ac")
 		(property "Reference" "#PWR09"
-			(at 48.26 49.53 0)
+			(at 48.26 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +5444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 48.26 0)
+			(at 48.26 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4056,7 +5454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 43.18 0)
+			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4067,7 +5465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 43.18 0)
+			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4078,7 +5476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 43.18 0)
+			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +5500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 43.18 0)
+		(at 71.12 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4113,7 +5511,7 @@
 		(fields_autoplaced yes)
 		(uuid "e36a5143-9f85-489c-a448-32aedc3660a1")
 		(property "Reference" "#PWR014"
-			(at 82.55 49.53 0)
+			(at 71.12 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +5522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 48.26 0)
+			(at 71.12 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4134,7 +5532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 43.18 0)
+			(at 71.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +5543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 43.18 0)
+			(at 71.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,7 +5554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 43.18 0)
+			(at 71.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,104 +5572,6 @@
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
 					(reference "#PWR014")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL072")
-		(at 179.07 92.71 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8f5fc32-1cec-47b9-a1b6-7904843cd6f2")
-		(property "Reference" "U2"
-			(at 179.07 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL072"
-			(at 179.07 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 179.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 179.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3c0098ef-6279-49fb-a532-2d60ba13fd5a")
-		)
-		(pin "6"
-			(uuid "11e73042-e334-43d6-ab8d-d692633fd011")
-		)
-		(pin "5"
-			(uuid "329e71fe-34bb-477f-9054-6535be1df01b")
-		)
-		(pin "3"
-			(uuid "fd31d2b9-f468-43c2-b7ba-d976b8e853f0")
-		)
-		(pin "8"
-			(uuid "f823818e-db6e-4cc3-b6fc-1ec1587d1b7a")
-		)
-		(pin "7"
-			(uuid "3cec39dd-800b-4cce-92b2-748bd8c43ea2")
-		)
-		(pin "1"
-			(uuid "70894659-90a8-4736-8052-0e752cb2d6e7")
-		)
-		(pin "4"
-			(uuid "4d7a3193-4f09-4055-ad3a-fe4ad948e3d8")
-		)
-		(instances
-			(project "parla-guitarra-v-0-rev-a"
-				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
@@ -4356,7 +5656,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 87.63 0)
+		(at 33.02 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4367,7 +5667,7 @@
 		(fields_autoplaced yes)
 		(uuid "f310a8c0-c636-4076-9201-5676dc23c945")
 		(property "Reference" "#PWR07"
-			(at 33.02 93.98 0)
+			(at 33.02 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +5678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 92.71 0)
+			(at 33.02 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4388,7 +5688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 87.63 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,7 +5699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 87.63 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4410,7 +5710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 87.63 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,7 +5832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 43.18 0)
+		(at 57.15 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4543,7 +5843,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa77b9a1-d861-408d-a2eb-1f88d31d38ab")
 		(property "Reference" "#PWR013"
-			(at 68.58 49.53 0)
+			(at 57.15 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4554,7 +5854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 48.26 0)
+			(at 57.15 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4564,7 +5864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 43.18 0)
+			(at 57.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4575,7 +5875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 43.18 0)
+			(at 57.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,7 +5886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 43.18 0)
+			(at 57.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,9 +5909,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
-		(at 179.07 62.23 0)
-		(unit 3)
+		(lib_id "Device:R")
+		(at 52.07 95.25 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4619,9 +5919,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc5e8408-89b1-44e1-8ca2-03bfdf4a3782")
-		(property "Reference" "U2"
-			(at 177.8 60.9599 0)
+		(uuid "fb165927-3035-4efc-8ea3-e6d9b7980993")
+		(property "Reference" "R2"
+			(at 54.61 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4631,8 +5931,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL072"
-			(at 177.8 63.4999 0)
+		(property "Value" "1M"
+			(at 54.61 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4643,7 +5943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 62.23 0)
+			(at 50.292 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4653,8 +5953,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 179.07 62.23 0)
+		(property "Datasheet" ""
+			(at 52.07 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,8 +5964,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 179.07 62.23 0)
+		(property "Description" "Resistor"
+			(at 52.07 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,34 +5976,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "3c0098ef-6279-49fb-a532-2d60ba13fd5a")
-		)
-		(pin "6"
-			(uuid "11e73042-e334-43d6-ab8d-d692633fd011")
-		)
-		(pin "5"
-			(uuid "329e71fe-34bb-477f-9054-6535be1df01b")
-		)
-		(pin "3"
-			(uuid "fd31d2b9-f468-43c2-b7ba-d976b8e853f0")
-		)
-		(pin "8"
-			(uuid "f823818e-db6e-4cc3-b6fc-1ec1587d1b7a")
-		)
-		(pin "7"
-			(uuid "3cec39dd-800b-4cce-92b2-748bd8c43ea2")
+			(uuid "4e627e5f-7093-4324-98a7-f4c5c0aa5d01")
 		)
 		(pin "1"
-			(uuid "70894659-90a8-4736-8052-0e752cb2d6e7")
-		)
-		(pin "4"
-			(uuid "4d7a3193-4f09-4055-ad3a-fe4ad948e3d8")
+			(uuid "e4c0f7dc-13a4-4d72-bc35-6e70317da67b")
 		)
 		(instances
 			(project "parla-guitarra-v-0-rev-a"
 				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
-					(reference "U2")
-					(unit 3)
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbc77a68-0a06-46c6-a073-f062cdb501a0")
+		(property "Reference" "#PWR05"
+			(at 168.91 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d60e62e2-814f-435d-af24-650c71544265")
+		)
+		(instances
+			(project "parla-guitarra-v-0-rev-a"
+				(path "/ce7bec08-c252-4eda-9576-59fd5b1f2a43"
+					(reference "#PWR05")
+					(unit 1)
 				)
 			)
 		)
