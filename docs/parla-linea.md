@@ -28,7 +28,7 @@ Generado a partir de `parla-linea/parla-linea-v-0-rev-a/parla-linea-v-0-rev-a.ki
 <!-- BOM_TABLE_START -->
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
-| C1, C6 | 2 | C | parla-linea-v-0-rev-a:C0805 | Capacitor cerámico |
+| C1, C6 | 2 | 1u | parla-linea-v-0-rev-a:C0805 | Capacitor cerámico |
 | C2, C7 | 2 | 100n | parla-linea-v-0-rev-a:C0805 | Capacitor cerámico |
 | C3 | 1 | 100u | parla-linea-v-0-rev-a:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD | Capacitor electrolítico |
 | C4 | 1 | 10u | parla-linea-v-0-rev-a:CAP-SMD_BD4.0-L4.3-W4.3-FD | Capacitor electrolítico |
