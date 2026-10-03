@@ -34,6 +34,32 @@ Cada módulo tiene su propia carpeta con un proyecto de KiCad, organizado por ve
 
 Esquemáticos, placas y bill of materials (BOM) de cada módulo, generados automáticamente: [docs](./docs/README.md).
 
+### Agregar las bibliotecas de parla-linea a KiCad
+
+Las bibliotecas generadas están en `parla-linea/parla-linea-v-0-rev-a/bibliotecas/`.
+Para que KiCad las encuentre, abre primero el proyecto
+`parla-linea/parla-linea-v-0-rev-a/parla-linea-v-0-rev-a.kicad_pro` y agrégalas
+como bibliotecas específicas de ese proyecto:
+
+1. En KiCad, abre **Preferencias → Administrar bibliotecas de símbolos…**.
+2. En **Bibliotecas específicas del proyecto**, pulsa **Añadir biblioteca existente**
+   y selecciona
+   `parla-linea/parla-linea-v-0-rev-a/bibliotecas/parla-linea-v-0-rev-a.kicad_sym`.
+3. Abre **Preferencias → Administrar bibliotecas de huellas…**.
+4. En **Bibliotecas específicas del proyecto**, pulsa **Añadir biblioteca existente**
+   y selecciona la carpeta
+   `parla-linea/parla-linea-v-0-rev-a/bibliotecas/parla-linea-v-0-rev-a.pretty`
+   (no un archivo dentro de ella).
+5. Confirma los cambios. Las bibliotecas deberían aparecer en los selectores de
+   símbolos y huellas del proyecto.
+
+Agrégalas como bibliotecas **específicas del proyecto**, no globales, para que las
+rutas queden asociadas a este proyecto. Los modelos 3D están en la carpeta hermana
+`parla-linea/parla-linea-v-0-rev-a/bibliotecas/parla-linea-v-0-rev-a.3dshapes/`;
+las huellas los referencian desde ahí, así que no hace falta registrarlos como
+biblioteca aparte. Si el proyecto ya estaba abierto mientras agregabas las
+bibliotecas, cierra y vuelve a abrir el proyecto.
+
 ### Enlaces por módulo
 
 - parla-linea: [carpeta](https://github.com/piruetasxyz/parla/tree/main/parla-linea), [docs](./docs/parla-linea.md)
