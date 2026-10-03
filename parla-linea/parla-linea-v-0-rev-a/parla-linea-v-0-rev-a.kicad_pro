@@ -523,7 +523,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../parla-linea-v-0-rev-a-fab/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -647,7 +647,7 @@
         "uuid": "9e893cc7-68f1-46cc-96b4-05ee00a7b35f"
       }
     ],
-    "used_designators": "#PWR18,J1-2,J4,H1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
